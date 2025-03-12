@@ -1,0 +1,17 @@
+.post-container {
+    margin-bottom: 10px;
+}
+
+.post-button {
+    width: 100%;
+    color: rgb(96, 98, 102);
+}
+
+.post-button:hover {
+    background-color: rgb(242, 242, 242);
+}
+
+.post-button-icon {
+    padding-right: 10px;
+    color: rgb(96, 98, 102);
+}

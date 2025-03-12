@@ -1,0 +1,54 @@
+.main-container-r {
+    position: absolute;
+    left: calc(50% - 23.5% / 2);
+    top: 2%;
+    width: 23.5%;
+    padding-bottom: 20px;
+}
+
+.title-r {
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 40px;
+    color: navy;
+}
+
+.login-form-r {
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.input-container-r {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.input-container-r > .input-field-r {
+    border-radius: 5px;
+    width: 90%;
+    height: 50px;
+    padding-bottom: 20px;
+}
+
+.temp-r > .button2-r {
+    background-color: rgb(67, 183, 42);
+    border-radius: 5px;
+    width: 210px;
+    height: 38px;
+    text-transform: none;
+    font-size: 17px;
+}
+
+.input-container-r > .have-account-r {
+    color: rgb(1, 103, 236);
+    text-decoration: none;
+}
+
+.input-container-r > .have-account-r:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,67 @@
+{
+  "name": "hw4",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^6.1.3",
+    "@mui/material": "^6.1.3",
+    "@mui/styles": "^6.1.3",
+    "@mui/x-date-pickers": "^7.19.0",
+    "@reduxjs/toolkit": "^2.2.8",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.8",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "cookie-parser": "^1.4.7",
+    "dayjs": "^1.11.13",
+    "dotenv": "^16.4.5",
+    "es6-promise": "^4.2.8",
+    "express": "^4.21.1",
+    "isomorphic-fetch": "^3.0.0",
+    "js-cookie": "^3.0.5",
+    "md5": "^2.3.0",
+    "mongodb": "^6.10.0",
+    "mongoose": "^8.8.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-redux": "^9.1.2",
+    "react-router-dom": "^6.26.2",
+    "react-scripts": "5.0.1",
+    "semantic-ui-css": "^2.5.0",
+    "semantic-ui-react": "^2.1.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && cp build/index.html build/200.html",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "test-jest": "jest"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "jest-junit": "^16.0.0"
+  }
+}

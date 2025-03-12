@@ -1,0 +1,44 @@
+.main-container {
+    position: absolute;
+    left: calc(50% - 23.5% / 2);
+    top: 12%;
+    width: 23.5%;
+}
+
+.title {
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 40px;
+    color: navy;
+}
+
+.login-form {
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.input-container {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.input-container > .input-field {
+    border-radius: 5px;
+    width: 90%;
+    height: 50px;
+    padding-bottom: 20px;
+}
+
+.input-container > .button2 {
+    background-color: rgb(67, 183, 42);
+    border-radius: 5px;
+    width: 210px;
+    height: 45px;
+    text-transform: none;
+    font-size: 17px;
+}

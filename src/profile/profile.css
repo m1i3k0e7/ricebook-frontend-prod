@@ -1,0 +1,23 @@
+.info-field-container {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info-field-container > .info-field {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.info-field-container > .info-field > .info-input {
+    flex-grow: 1;
+    background-color: white;
+}
+
+.info-field-container > .info-field > .info-button {
+    margin-left: 5px;
+    height: 55px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
